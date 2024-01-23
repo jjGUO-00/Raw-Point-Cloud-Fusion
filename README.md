@@ -10,8 +10,8 @@
 ## 编译
 
 ```bash
-# 拷贝项目文件夹
-cd ikd-Tree/build
+git clone https://github.com/jjGUO-00/Raw-Point-Cloud-Fusion.git point-cloud-fusion
+cd point-cloud-fusion/build
 cmake ..
 make -j 9
 ```
@@ -47,5 +47,4 @@ number of points: 34720 + 34720
 随机数范围：(-0.001,0.001)   降采样分辨率：0.004 融合结果：34720 41411
 随机数范围：(-0.001,0.001)   降采样分辨率：0.01 融合结果：34720 34120
 ```
-
 
